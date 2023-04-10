@@ -1,7 +1,8 @@
 
-const mysql2 = require("mysql2/promise")
+// const mysql2 = require("mysql2/promise")
 
 require('dotenv').config()
+
 
 const connection = mysql.createpool({
     host: process.env.MYSQL_HOST,

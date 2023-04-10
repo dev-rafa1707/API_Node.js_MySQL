@@ -14,7 +14,7 @@ const getAll = async(req,res) => {
 
 
 
-moduls.exports = {
+module.exports = {
   getAll
 }
 
