@@ -1,6 +1,9 @@
 const express = require('express')
 const server = express()
-const PORT = 3000
+require('dotenv').config();
+const PORT = process.env.PORT
+
+// console.log(process.env.PORT)
 
 server.get("/",(req,res)=>{
     res.send("Teste get")
